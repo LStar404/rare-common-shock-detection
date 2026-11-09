@@ -2,9 +2,11 @@
 
 英文题名：*Rare Common-Shock Detection from Binary Snapshots — Minimum Cover Order and Optimal Inspection*。
 
-这是“随机覆盖问题”研究的第063轮英文讨论稿。模型允许独立冲击同时覆盖若干块。每次实验独立重启，只在选定时刻记录一次完整二元快照。比较两种全局冲击率时，通过调整专属率保持单块边缘相同。论文研究最低覆盖阶如何决定两候选的 Hellinger 分离与最佳观测时间，并给出二阶边界和两种重叠几何的对比。
+这是“随机覆盖问题”研究的第065轮英文讨论稿。模型允许独立冲击同时覆盖若干块。每次实验独立重启，只在选定时刻记录一次完整二元快照。比较两种全局冲击率时，通过调整专属率保持单块边缘相同。论文研究最低覆盖阶如何决定两候选的 Hellinger 分离与最佳观测时间，并给出二阶边界和两种重叠几何的对比。
 
 ## 阅读与编译
+
+第065轮用完成事件的直接估计简化两种重叠几何的证明，并合并长时间下界。各定理沿用原适用条件，二阶边界继续单独讨论。
 
 - [英文论文 PDF](rare-common-shock-detection.pdf)
 - [LaTeX 源文件](rare-common-shock-detection.tex) · [可编译源码包](latex-source.zip) · [编译说明](BUILD.md)
@@ -12,7 +14,11 @@
 
 解压源码包并在其目录执行 `latexmk -pdf rare-common-shock-detection.tex` 或 `tectonic rare-common-shock-detection.tex`。参考文献已包含在主文件中，两幅图需与主文件置于同一目录。
 
-## 第063轮冻结版
+## 版本记录
+
+[第065轮冻结版 · 2026-11-09](https://github.com/LStar404/rare-common-shock-detection/tree/round-065-2026-11-09) 对应上方最新版。引用这一稿时，可用冻结标签定位提交和原始文件。
+
+### 第063轮冻结版
 
 | 项目 | 记录 |
 | --- | --- |
